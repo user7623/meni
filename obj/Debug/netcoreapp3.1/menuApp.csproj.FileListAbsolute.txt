@@ -1,0 +1,13 @@
+C:\Users\ddroi\Desktop\Fakultet\menuApp\bin\Debug\netcoreapp3.1\menuApp.exe
+C:\Users\ddroi\Desktop\Fakultet\menuApp\bin\Debug\netcoreapp3.1\menuApp.deps.json
+C:\Users\ddroi\Desktop\Fakultet\menuApp\bin\Debug\netcoreapp3.1\menuApp.runtimeconfig.json
+C:\Users\ddroi\Desktop\Fakultet\menuApp\bin\Debug\netcoreapp3.1\menuApp.runtimeconfig.dev.json
+C:\Users\ddroi\Desktop\Fakultet\menuApp\bin\Debug\netcoreapp3.1\menuApp.dll
+C:\Users\ddroi\Desktop\Fakultet\menuApp\bin\Debug\netcoreapp3.1\menuApp.pdb
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.csprojAssemblyReference.cache
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.AssemblyInfoInputs.cache
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.AssemblyInfo.cs
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.csproj.CoreCompileInputs.cache
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.dll
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.pdb
+C:\Users\ddroi\Desktop\Fakultet\menuApp\obj\Debug\netcoreapp3.1\menuApp.genruntimeconfig.cache
