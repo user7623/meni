@@ -45,13 +45,14 @@ namespace ConsoleApp
 
         }
 
-        static void Printingfunc(Meni meni)
+        static void Printingfunc(Meni meni,int lvl)
         {
             Meni rMeni = meni;
+            int Lvl = lvl;
             if (rMeni.childList.Count != 0)
             {
-                string indentationLevel = String.Concat(System.Linq.Enumerable.Repeat("...", rMeni.Level - 1));
-                if (rMeni.Level == 2)
+                string indentationLevel = String.Concat(System.Linq.Enumerable.Repeat("...", Lvl));
+                if (Lvl == 0)
                 {
                     indentationLevel = ".";
                 }
@@ -61,13 +62,13 @@ namespace ConsoleApp
                 {
                     if (child.childList.Count != 0)
                     {
-                        Printingfunc(child);
+                        Printingfunc(child, Lvl + 1);
                     }
                     else
                     {
                         if (!child.IsHidden)
                         {
-                            indentationLevel = String.Concat(System.Linq.Enumerable.Repeat("...", child.Level - 1));
+                            indentationLevel = String.Concat(System.Linq.Enumerable.Repeat("...", Lvl + 1));
                             Console.WriteLine(indentationLevel + child.MenuName);
                         }
                     }
@@ -150,7 +151,7 @@ namespace ConsoleApp
             {
                 if (menu.IsRootMenu)
                 {
-                    Printingfunc(menu);
+                    Printingfunc(menu, 0);
                 }
             }
             Console.ReadLine();
